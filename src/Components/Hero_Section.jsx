@@ -2,10 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 // Styled components
+// const MainContainer = styled.div`
+//   display: flex;
+//   flex-direction : column;
+//   background-color: #EBEBEB;
+// `
+
 const Container = styled.div`
+  display: flex;
+  justify-content: space-between;
   background-color: #EBEBEB;
-  width: 100%;
-  height: 100%;
 `;
 
 const TextContainer = styled.div`
@@ -74,6 +80,16 @@ const BtnViewMore = styled(BtnGetStarted)`
     }
 `;
 
+const PhoneImg = styled.img`
+  height: 735px;
+  padding-right: 15px;
+`;
+
+const MilkImg = styled.img`
+  height: 478px;
+  z-index: -1;
+`;
+
 const Hero_Section = () => {
   return (
     <Container>
@@ -86,7 +102,13 @@ const Hero_Section = () => {
           <BtnViewMore>View More</BtnViewMore>
         </BtnContainer>
       </TextContainer>
+      <PhoneImg src='/_HeroSection/Mobile.png' />
     </Container>
+
+      
+
+    
+    
   );
 };
 
