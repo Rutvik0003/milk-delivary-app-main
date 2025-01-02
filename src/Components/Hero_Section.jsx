@@ -85,13 +85,10 @@ const PhoneImg = styled.img`
   padding-right: 15px;
 `;
 
-const MilkImg = styled.img`
-  height: 478px;
-  z-index: -1;
-`;
 
 const Hero_Section = () => {
   return (
+    <>
     <Container>
       <TextContainer>
         <Milk>Milk</Milk>
@@ -104,6 +101,10 @@ const Hero_Section = () => {
       </TextContainer>
       <PhoneImg src='/_HeroSection/Mobile.png' />
     </Container>
+    </>
+    
+    
+
 
       
 
