@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { poppinsFont } from '../styles/fonts';
 import { useState } from 'react';
 
 // Styled components
@@ -22,7 +21,6 @@ const OptionText = styled.a`
   font-size: 16px;
   line-height: 26px;
   margin: 0 10px;
-  ${poppinsFont}
   font-weight: 500;
   font-style: normal;
   color: ${(props) => (props.isActive ? '#71AA38' : 'black')};

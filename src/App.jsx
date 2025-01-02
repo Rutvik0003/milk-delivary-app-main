@@ -1,12 +1,13 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
+import GlobleStyles from './styles/GlobleStyles'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
+      <GlobleStyles/>
       <Navbar />
     </>
   )
