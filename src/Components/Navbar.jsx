@@ -21,15 +21,16 @@ const OptionText = styled.a`
   font-size: 16px;
   line-height: 26px;
   margin: 0 10px;
+  font-family: 'Poppins', sans-serif; /* Use the correct font declaration */
   font-weight: 500;
   font-style: normal;
   color: ${(props) => (props.isActive ? '#71AA38' : 'black')};
   &:hover {
     color: #71AA38;
-    }
-    cursor: pointer;
-
+  }
+  cursor: pointer;
 `;
+
 
 const Logo = styled.img`
   height: 35px; /* Adjust size as needed */
