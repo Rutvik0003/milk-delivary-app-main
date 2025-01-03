@@ -73,9 +73,10 @@ const DetailsContainer = styled.div`
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-top: 96px;
-    padding-left : 151px;
-    padding-right: 151px;
+    margin-top: 96px;
+    margin-left : 151px;
+    margin-right: 151px;
+    margin-bottom: 150px;
 `
 
 
